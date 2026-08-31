@@ -68,7 +68,7 @@ function updateExpression(){
 // Keyboard support
 document.addEventListener('keydown', (event) => {
     const key = event.key;
-    if (/[0-9\+\-\*\/\.%]/.test(key)) {
+    if (/[0-9\+\-\*\/\.\%]/.test(key)) {
         appendValue(key);
     } else if (key === 'Enter') {
         event.preventDefault();
